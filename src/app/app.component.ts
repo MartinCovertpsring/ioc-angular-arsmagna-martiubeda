@@ -10,4 +10,8 @@ import { RouterOutlet } from '@angular/router';
 })
 export class AppComponent {
   title = 'ioc-angular-arsmagna-martiubeda';
+  
+  constructor() {
+    console.log('HOLA (ra)MON!');
+   }
 }
